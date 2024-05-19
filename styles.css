@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    font-family:  Inspire, sans-serif;;
+}
+.form-main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 51%, rgba(0,0,0,0.9780287114845938) 100%);
+    justify-content: center;
+    align-items: center;
+}
+
+.formcontainer{
+    margin: auto;
+    width: 28%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 15px;
+}
+.formcontainer2{
+    margin: auto;
+    width: 24%;
+    height: 50vh;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.formsteptext{
+    margin-top: 15%;
+    margin-left: 10%;   
+}
+
+.formtitletext{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.forminfotext{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 4%;
+}
+
+.emailinput{
+    width: 80%;
+    height:6vh;
+    margin-top: 5%;
+    margin-left: 10%;
+    
+}
+
+.formbtnsumit{
+    height: 6vh;
+    width: 80%;
+    text-align: center  ;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 20px;
+    border: 0;
+    color: aliceblue;
+    background-color: black;
+    transition: background-color 0.3s; 
+
+}
+
+.formbtnsumit:hover{
+    background-color: rgb(39, 38, 38);
+}
+
+.formspantext{
+    color:red;
+    margin-top: 2%;
+    margin-left: 10%;
+}
